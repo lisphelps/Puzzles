@@ -215,24 +215,3 @@ function extractA(hash) {
 // console.log(extractA(hashTwo));
 // console.log(extractA(hashThree));
 
-/* LOOPS */
-/* Given an array of integers, calculate the sum of all the integers. 
-For duplicates, only count them once. 
-([1, 2, 3] → 6, [3, 4, 3, 4, 5] → 12, [1, 1, 0, 0] → 1) */
-
-
-
-/* Given an array of strings, return a map with a key for each different string, 
-with the value the number of times that string appears in the array.
-(["a", "b", "a", "c", "b"] → {"a": 2, "b": 2, "c": 1}, 
- ["c", "b", "a"] → {"a": 1, "b": 1, "c": 1}, 
-["c", "c", "c", "c"] → {"c": 4}) */
-
-
-
-/* Given an array of ints, return true if one of the first 4 elements in the array is a 9. 
-The array length may be less than 4. 
-([1, 2, 9, 3, 4] → true, [1, 2, 3, 4, 9] → false, [1, 2, 3, 4, 5] → false, [] → false) */
-
-
-
