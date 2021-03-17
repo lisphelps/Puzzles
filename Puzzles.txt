@@ -1,0 +1,29 @@
+/* 
+
+function loudBirb(hour) {
+if (hour < 7 || hour > 20) {
+    return "We're in trouble.";
+}
+return "We're not in trouble... yet.";
+}
+
+
+
+function intCompare (int1, int2) {
+    if (int1 !== int2) {
+        return int1 + int2;
+    }
+    return (int1 + int2)*2;
+}
+
+
+function thisPartyTho(tea, candy) {
+    if (tea < 5 || candy < 5) {
+        return 0;
+    } else if (tea >= 5 && candy >= 5) {
+        return 1;
+    } else if (tea >= 2*candy || candy >= 2* tea) {
+        return 2;
+    }
+    return "This party is weird.";
+}
